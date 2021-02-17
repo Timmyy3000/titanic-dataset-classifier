@@ -7,7 +7,7 @@ from PIL import Image
 
 # get data
 titanic_raw = pd.read_csv('train.csv')[['Survived', 'Pclass', 'Age', 'Sex']]
-df = titanic_raw.head(5)
+df = titanic_raw.sample(5)
 
 
 image = Image.open('Titanic.jpeg')
@@ -21,12 +21,18 @@ st.write("""
 # Titanic Classifier
 ------
 
-This app classifies the **Survival** of RMS-Titanic passsengers!
+This app classifies the **Survival** of RMS-Titanic passsengers using a Logistic Regression Model and a Random Forest Classifier
 
-Data obtained from the [Kaggle Titanic Dataset](https://github.com/allisonhorst/palmerpenguins) in R by Allison Horst.
+The models use 4 attributes to make a prediction on the probability of a passenger surviving.
 
+- Passenger Class
+- Age
+- Sex
+
+Data obtained from the [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
 Find more about my submisison on [Kaggle](https://www.kaggle.com/timilehinogunme) 
 
+The deployed web app is live, [here](https://share.streamlit.io/timmyy3000/titanic-dataset-classifier/main/app.py)
 """)
 
 st.subheader('Feature Set')
