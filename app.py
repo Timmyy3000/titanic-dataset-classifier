@@ -32,7 +32,7 @@ The models use 4 attributes to make a prediction on the probability of a passeng
 Data obtained from the [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data)
 Find more about my submisison on [Kaggle](https://www.kaggle.com/timilehinogunme) 
 
-The deployed web app is live, [here](https://share.streamlit.io/timmyy3000/titanic-dataset-classifier/main/app.py)
+*Click [here](https://github.com/Timmyy3000/titanic-dataset-classifier), to find my github repository for this project*
 """)
 
 st.subheader('Feature Set')
