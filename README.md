@@ -2,7 +2,7 @@
 
 ------
 
-This app classifies the **Survival** of RMS-Titanic passsengers using a Logistic Regression Model and a Random Forest Classifier
+This app classifies the **Survival** of RMS-Titanic passengers using a Logistic Regression Model and a Random Forest Classifier
 
 The models use 4 attributes to make a prediction on the probability of a passenger surviving.
 
